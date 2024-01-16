@@ -1,5 +1,292 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
 
-body{
+body {
     font-family: 'Mulish', sans-serif;
+}
+
+.header-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* nav section styles start */
+.nav-container {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-container img {
+    width: 50px;
+    padding-right: 15px;
+}
+
+.nav-container p {
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.special {
+    color: #FF5400;
+}
+
+.items-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items-container a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #424247;
+}
+
+.items-container .special a {
+    color: #FF5400;
+}
+
+/* nav section styles start */
+
+/* banner section styles start here */
+.banner-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.banner-img {
+    max-width: 1250px;
+}
+
+.banner-img img {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+
+}
+
+.banner-text{
+    position: absolute;
+    color: aliceblue;
+    padding-left: 150px;
+    padding-top: 120px;
+    font-size: 30px;
+}
+
+.banner-heading {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+#banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* banner section styles end here */
+
+/* tour section style start hare */
+.tour-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+    /* border: 2px solid blue; */
+}
+
+.tour-heading {
+    /* border: 2px solid tomato; */
+    width: 45%;
+}
+
+.tour-img {
+    /* border: 2px solid violet; */
+    width: 50%;
+}
+
+.tour-img img {
+    width: 550px;
+    display: block;
+    height: 550px;
+    margin-left: 100px;
+}
+
+.tour-heading h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #131318;
+}
+
+.tour-heading p {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.tour-heading ul>li {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 16px;
+}
+
+.button {
+    background-color: #FF5400;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 1.25rem;
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* tour section style start hare */
+
+.gallery {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.gallery h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.destination {
+    text-align: center;
+}
+
+.image-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 20px;
+    gap: 15px;
+}
+
+.maldives h3 {
+    position: absolute;
+    color: aliceblue;
+    padding-left: 250px;
+    padding-top: 120px;
+    font-size: 30px;
+}
+
+.indonesia h3 {
+    position: absolute;
+    color: aliceblue;
+    padding-left: 230px;
+    padding-top: 120px;
+    font-size: 30px;
+}
+
+.image-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+
+.image-3 {
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
+    gap: 50px;
+}
+
+
+/* choose section style */
+.choose-section {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.choose-section h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.grid-container {
+    max-width: 1250px;
+    /* min-width: 400px; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+
+}
+
+.choose-icon {
+    /* border: 2px solid blue; */
+    /* width: 400px; */
+}
+
+
+.grid-item-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.grid-item-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.grid-item-3 {
+    /* padding-left: 50px; */
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    justify-self: center;
+}
+
+.fa-solid {
+    font-size: 50px;
+}
+
+.newsletter-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.newsletter {
+    margin-right: 20px;
+    padding-left: 25px;
+    border-radius: 15px;
+    width: 50%;
+    border: 2px solid tomato;
+}
+.newsletter-input{
+    padding-top: 20px;
+}
+.newsletter-img {
+    width: 50%;
+}
+
+.mail {
+    width: 393px;
+    height: 52px;
+    
+}
+button{
+    width: 400px;
+    height: 52px;
+}
+footer{
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
 }

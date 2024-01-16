@@ -1,0 +1,112 @@
+@media only screen and (max-width: 600px) {
+
+    .header-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-container img {
+        width: 30px;
+        padding-left: 25px;
+    }
+
+    .nav-container p {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .items-container {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .items-container a {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .banner-text {
+        padding: 20px;
+        color: black;
+        text-align: center;
+        position: static;
+    }
+
+    .banner-heading {
+        font-size: 2.5rem;
+    }
+
+    .tour-section {
+        flex-direction: column;
+    }
+
+    .tour-img img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .tour-heading h2 {
+        font-size: 2rem;
+    }
+
+    .tour-heading p {
+        font-size: 1rem;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .gallery h1 {
+        font-size: 2rem;
+    }
+
+    .maldives h3,
+    .indonesia h3 {
+        padding-left: 0;
+        text-align: center;
+        position: static;
+    }
+
+    .choose-section h1 {
+        font-size: 2rem;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .choose-icon {
+        width: 100%;
+    }
+
+    .fa-solid {
+        font-size: 40px;
+    }
+
+    .newsletter-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .newsletter-img {
+        display: none;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
