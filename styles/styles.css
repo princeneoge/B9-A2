@@ -72,7 +72,7 @@ body {
 .banner-text{
     position: absolute;
     color: aliceblue;
-    padding-left: 150px;
+    padding-left: 300px;
     padding-top: 120px;
     font-size: 30px;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 #banner-description {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -151,6 +151,9 @@ body {
 .gallery {
     max-width: 1250px;
     margin: 0 auto;
+}
+.gallery p{
+    font-size: ;
 }
 .gallery h1{
     font-size: 2.5rem;
@@ -264,6 +267,10 @@ body {
     width: 50%;
     border: 2px solid tomato;
 }
+.newsletter-heading{
+    font-size: 2rem;
+    font-weight: 800;
+}
 .newsletter-input{
     padding-top: 20px;
 }
@@ -274,11 +281,16 @@ body {
 .mail {
     width: 393px;
     height: 52px;
-    
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
 }
 button{
     width: 400px;
     height: 52px;
+    background-color: #FF5400;
+    border-radius: 8px;
+    border: none;
 }
 footer{
     text-align: center;
